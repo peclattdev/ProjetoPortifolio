@@ -1,0 +1,323 @@
+
+/* Estilo geral*/
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 0.63rem 2.50rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 2.37rem;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #7d7d7d;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0rem 0rem 0.5rem #8b8b8b;
+    transform: scale(1.02);
+}
+
+/* Estilo do Cabeçalho */
+
+header {
+    padding: 1.55rem;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 2.50rem;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0rem 0rem 0.5rem #8b8b8b;
+    transform: scale(1.02);
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 2.50rem 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 5.63rem;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #7d7d7d;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 2.4rem 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 1.87rem;
+    }
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades {
+    padding: 5rem 4%;
+}
+
+section.especialidades .flex {
+    gap: 3.75rem;
+}
+
+.especialidades .box-especiais{
+    color: #fff;
+    padding: 2.4rem;
+    border-radius: 1.25rem;
+    margin-top: 2.81rem;
+    transition: .2s;
+}
+
+.especialidades .box-especiais:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem #8b8b8b;
+}
+
+.especialidades .box-especiais i {
+    font-size: 4.4rem;
+    color: #7d7d7d;
+}
+
+.especialidades .box-especiais h3 {
+    font-size: 1.75rem;
+    margin: 0.93rem 0;
+}
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 5rem 4%;
+
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 3.75rem;
+}
+
+.sobre .txt-sobre {
+    color: #fff;
+}
+
+.txt-sobre h2{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.87rem;
+}
+
+.txt-sobre h2 span{
+    color: #7d7d7d;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 1.25rem 0;
+    text-align: justify;
+}
+
+.btn-social button {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 1.75rem;
+    border: none;
+    background-color: #fff;
+    font-size: 1.37rem;
+    cursor: pointer;
+    margin: 1.15rem 0.28rem;
+    transition: .2s;
+}
+
+/* ESTILO DO PORTIFOLIO */
+section.portifolio {
+    padding: 5rem 4%;
+    box-shadow: 0 0 2.4rem 0.62rem #252525;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+    margin-top: 3.75rem;
+}
+
+.img-port {
+    width: 22.5rem;
+    height: 28.75rem;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 7s;
+    cursor: pointer;
+    border-radius: 2.4rem;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* ESTILO FALA COMIGO */
+
+section.formulario {
+    padding: 5rem 4%;
+}
+
+form {
+    max-width: 31.25rem;
+    margin: 2.4rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.62rem;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: none;
+    outline: none;
+    padding: 1.25rem 0.93rem;
+    border-radius: 0.93rem;
+    color: #fff;
+    font-size: 1.12rem;
+}
+
+form textarea {
+    resize: none;
+    max-height: 12.5rem;
+}
+
+form .btn-enviar {
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 7.5rem;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
+
+/* ESTILO RODAPE */
+
+footer {
+    padding: 2.4rem 4%;
+    box-shadow: 0 0 2.4rem 0.62rem #252525;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 1.25rem 4%;
+}
+
+.borda {
+    border-top: 0.125rem solid #fff;
+}
+
+footer .line-footer p i{
+    color: #fff;
+    font-size: 1.37rem;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
