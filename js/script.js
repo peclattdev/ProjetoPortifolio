@@ -17,7 +17,7 @@ overlay.addEventListener("click", () => {
 })
 
 btnTop.addEventListener('click', function () {
-  window.scrollTo(0,0);
+  document.body.scrollIntoView({behavior: 'smooth'});
 })
 
 document.addEventListener('scroll',ocultar)

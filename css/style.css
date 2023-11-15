@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #000;
   height: 100vh;
