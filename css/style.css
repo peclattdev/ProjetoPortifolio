@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
 }
 
@@ -317,52 +317,6 @@ section.portifolio .flex {
   opacity: 1;
 }
 
-/* ESTILO FALA COMIGO */
-
-section.formulario {
-  padding: 5rem 4%;
-}
-
-form {
-  max-width: 31.25rem;
-  margin: 2.4rem auto 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 0.62rem;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  background-color: #242424;
-  border: none;
-  outline: none;
-  padding: 1.25rem 0.93rem;
-  border-radius: 0.93rem;
-  color: #fff;
-  font-size: 1.12rem;
-}
-
-form textarea {
-  resize: none;
-  max-height: 12.5rem;
-}
-
-form .btn-enviar {
-  margin-top: 1.25rem;
-  text-align: center;
-}
-
-form .btn-enviar input {
-  width: 7.5rem;
-  background-color: #fff;
-  color: #000;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.2s;
-}
-
 #btnTop {
   position: fixed;
   bottom: 50px;
@@ -382,7 +336,6 @@ form .btn-enviar input {
 
 footer {
   padding: 2.4rem 4%;
-  box-shadow: 0 0 2.4rem 0.62rem #252525;
 }
 
 footer .flex {
