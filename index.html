@@ -10,10 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/script.js" defer></script>
     <title>Portifólio Yann Peclat</title>
   </head>
@@ -28,10 +25,10 @@
         <!--logo-->
         <nav class="menu-desktop">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Especialidades</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portifolio">Projetos</a></li>
           </ul>
         </nav>
         <!--menu-desktop-->
@@ -44,21 +41,21 @@
         <!--btn-contato-->
 
         <div class="btn-abrir-menu" id="btn-menu">
-          <i class="bi bi-list"></i>
+          <i class="fa-solid fa-bars"></i>
         </div>
         <!--btn-abrir-menu-->
 
         <div class="menu-mobile" id="menu-mobile">
           <div class="btn-fechar">
-            <i class="bi bi-x-lg"></i>
+            <i class="fa-solid fa-xmark"></i>
           </div>
           <!--btn-fechar-->
           <nav>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Especialidades</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Projetos</a></li>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#especialidades">Especialidades</a></li>
+              <li><a href="#portifolio">Projetos</a></li>
               <li><a href="#">Contato</a></li>
             </ul>
           </nav>
@@ -72,7 +69,7 @@
     </header>
 
     <main>
-      <section class="topo-do-site">
+      <section class="topo-do-site" id="inicio">
         <div class="interface">
           <div class="flex">
             <div class="txt-topo-site">
@@ -104,37 +101,42 @@
       </section>
       <!--topo-do-site-->
 
-      <section class="especialidades">
+      <section class="especialidades" id="especialidades">
         <div class="interface">
           <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
           <div class="flex">
             <div class="box-especiais">
-              <i class="bi bi-code-slash"></i>
-              <h3>Website</h3>
+              <i class="fa-brands fa-html5"></i>
+              <h3>HTML5</h3>
               <p>
-                Lorem ipsim dolor sit amet consectetur adipisicing elit.
-                Tempore, nulla rem dolore inventore delectus at.
+                HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web.
               </p>
             </div>
-            <!--box-especiais de website-->
+            <!--box-especiais de HTML5-->
             <div class="box-especiais">
-              <i class="bi bi-cart"></i>
-              <h3>Loja online</h3>
+              <i class="fa-brands fa-css3-alt"></i>
+              <h3>CSS3</h3>
               <p>
-                Lorem ipsim dolor sit amet consectetur adipisicing elit.
-                Tempore, nulla rem dolore inventore delectus at.
+                CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML.
               </p>
             </div>
-            <!--box-especiais de loja online-->
+            <!--box-especiais de CSS3-->
             <div class="box-especiais">
-              <i class="bi bi-wordpress"></i>
-              <h3>Blog</h3>
+              <i class="fa-brands fa-js"></i>
+              <h3>Javascript</h3>
               <p>
-                Lorem ipsim dolor sit amet consectetur adipisicing elit.
-                Tempore, nulla rem dolore inventore delectus at.
+                JavaScript é uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente.
               </p>
             </div>
-            <!--box-especiais de blog-->
+            <!--box-especiais de JAVASCRIPT-->
+            <div class="box-especiais">
+              <i class="fa-brands fa-react"></i>
+              <h3>React</h3>
+              <p>
+                O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+              </p>
+            </div>
+            <!--box-especiais de JAVASCRIPT-->
           </div>
           <!--flex-->
         </div>
@@ -142,7 +144,7 @@
       </section>
       <!--especialidades-->
 
-      <section class="sobre">
+      <section class="sobre" id="sobre">
         <div class="interface">
           <div class="flex">
             <div class="img-sobre">
@@ -152,27 +154,17 @@
             <div class="txt-sobre">
               <h2>MUITO PRAZER, <span>SOU YANN PECLAT.</span></h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt similique soluta harum nam, labore velit quam ut
-                repudiandae accusamus numquam voluptas veniam, ea at ad dolor.
-                Enim incidunt voluptate placeat!
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequatur repellendus adipisci praesentium veniam voluptate
-                quos omnis, quibusdam dolores mollitia voluptatem eum nemo,
-                aliquam itaque, vel obcaecati asperiores quaerat dolorem
-                architecto!
+                Tenho 30 anos e sou um entusiasta da tecnologia, apaixonado pelo desenvolvimento web. Iniciei meu envolvimento nesse campo aos 20 anos, embora circunstâncias tenham me levado a seguir uma carreira como barbeiro. Durante esse período, mantive meu interesse pela tecnologia, consumindo ativamente conteúdo relacionado e me atualizando sobre as últimas tendências. Decidi redirecionar minha trajetória aos 29 anos, retomando os estudos com foco no desenvolvimento web, buscando agora minha primeira oportunidade profissional nessa área. Estou determinado a aplicar minhas habilidades e conhecimentos adquiridos, ansioso para contribuir de forma significativa em projetos desafiadores como desenvolvedor.
               </p>
               <div class="btn-social">
-                <a href="#"
-                  ><button><i class="bi bi-instagram"></i></button
+                <a href="https://www.instagram.com/yannpeclat/" target="_blank"
+                  ><button><i class="fa-brands fa-instagram"></i></button
                 ></a>
-                <a href="#"
-                  ><button><i class="bi bi-linkedin"></i></button
+                <a href="https://www.linkedin.com/in/yann-peclat-0ba246176/" target="_blank"
+                  ><button><i class="fa-brands fa-linkedin"></i></button
                 ></a>
-                <a href="#"
-                  ><button><i class="bi bi-github"></i></button
+                <a href="https://github.com/peclattdev" target="_blank"
+                  ><button><i class="fa-brands fa-github"></i></button
                 ></a>
               </div>
               <!--btn-social-->
@@ -185,7 +177,7 @@
       </section>
       <!--sobre-->
 
-      <section class="portifolio">
+      <section class="portifolio" id="portifolio">
         <div class="interface">
           <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
           <div class="flex">
@@ -251,6 +243,10 @@
       <!--formulario-->
     </main>
 
+    <div id="btnTop">
+      <i class="fa-solid fa-arrow-up fa-lg"></i>
+    </div><!-- <i class="fa-solid fa-arrow-up"></i> -->
+
     <footer>
       <div class="interface">
         <div class="line-footer">
@@ -260,14 +256,14 @@
             </div>
             <!--logo-footer-->
             <div class="btn-social">
-              <a href="#"
-                ><button><i class="bi bi-instagram"></i></button
+              <a href="https://www.instagram.com/yannpeclat/" target="_blank"
+                ><button><i class="fa-brands fa-instagram"></i></button
               ></a>
-              <a href="#"
-                ><button><i class="bi bi-linkedin"></i></button
+              <a href="https://www.linkedin.com/in/yann-peclat-0ba246176/" target="_blank"
+                ><button><i class="fa-brands fa-linkedin"></i></button
               ></a>
-              <a href="#"
-                ><button><i class="bi bi-github"></i></button
+              <a href="https://github.com/peclattdev" target="_blank"
+                ><button><i class="fa-brands fa-github"></i></button
               ></a>
             </div>
             <!--btn-social-->
@@ -278,7 +274,7 @@
 
         <div class="line-footer borda">
           <p>
-            <i class="bi bi-envelope"></i>
+            <i class="fa-solid fa-envelope"></i>
             <a href="mailto:yannpeclat@gmail.com">yannpeclat@gmail.com</a>
           </p>
         </div>
